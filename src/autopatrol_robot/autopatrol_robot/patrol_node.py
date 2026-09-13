@@ -29,8 +29,8 @@ class PatrolNode(BasicNavigator):
         self.declare_parameter('image_save_path', '')
         self.image_save_path = self.get_parameter('image_save_path').value
         if not self.image_save_path:
-            self.image_save_path = os.path.expanduser(
-                '~/ROS2_workspace/xun/patrol_images/')
+            self.image_save_path = '~/patrol_images/'
+        self.image_save_path = os.path.expanduser(self.image_save_path)
         os.makedirs(self.image_save_path, exist_ok=True)
         self.bridge = CvBridge()
         self.latest_image = None

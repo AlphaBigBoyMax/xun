@@ -1,6 +1,5 @@
 build/
 install/
 log/
-patrol_images/
 *.pyc
 __pycache__/

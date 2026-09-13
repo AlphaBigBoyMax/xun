@@ -1,6 +1,7 @@
 patrol_node:
   ros__parameters:
-    image_save_path: "/home/wenzhuo/ROS2_workspace/xun/patrol_images/"
+    # 留空时保存到当前用户的 ~/patrol_images/
+    image_save_path: ""
     initial_point: [0.0, 0.0, 0.0]
     target_points: [
       0.0,0.0,0.0,
