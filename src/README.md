@@ -18,8 +18,8 @@
 
 本项目开发平台信息如下：
 
-- 系统版本： Ubunt22.04
-- ROS 版本：ROS 2 Humble
+- 系统版本： Ubunt24.04
+- ROS 版本：ROS 2 Jazzy
 
 ### 2.1安装
 
@@ -61,7 +61,7 @@ colcon build
 
 ```
 source install/setup.bash
-ros2 launch fishbot_description gazebo.launch.py
+ros2 launch fishbot_description gazebo_sim.launch.py
 ```
 
 运行导航
