@@ -71,13 +71,14 @@ source install/setup.bash
 ros2 launch fishbot_navigation2 navigation2.launch.py
 ```
 
-运行自动巡检
+运行自动巡检，自动拍照并保存至主目录下的patrol_images文件夹
 
 ```
 source install/setup.bash
 ros2 launch autopatrol_robot autopatrol.launch.py
 ```
 
-## 3.作者
+## 3.原作者和改编
 
 -  [fishros](https://github.com/fishros)
+-  [AlphaBigBoyMax]([https://github.com/AlphaBigBoyMax])
