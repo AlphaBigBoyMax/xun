@@ -81,4 +81,4 @@ ros2 launch autopatrol_robot autopatrol.launch.py
 ## 3.原作者和改编
 
 -  [fishros](https://github.com/fishros)
--  [AlphaBigBoyMax]([https://github.com/AlphaBigBoyMax])
+-  [AlphaBigBoyMax](https://github.com/AlphaBigBoyMax)
